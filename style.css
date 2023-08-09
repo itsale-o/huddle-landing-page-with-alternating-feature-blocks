@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/* estilos de fontes*/
+.title-font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #00252E;
+}
+
+.body-font{
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+.cta{
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+/* estilos dos botões */
+
+.button{
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.white-button{
+    cursor: pointer;
+    box-shadow: 0 3px 3px #E2ECED;
+    width: 150px;
+    height: 35px;
+    color: #00252E;
+    background-color: white;
+}
+
+.white-button:active{
+    color: #8A939A;
+}
+
+.pink-button{
+    cursor: pointer;
+    box-shadow: 0 4px 3px #E2ECED;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #FF52BF;
+}
+
+.pink-button:hover{
+    background-color: #E84AAE;
+}
+
+.pink-button:active{
+    background-color: #FF9BDB;
+}
+
+.card{
+    box-shadow: 0 1px 10px #E6E6E6;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;    
+}
+
+#header{
+    background-color: #EBFBFF;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+#logo-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+#logo-button img{
+    width: 150px;
+}
+
+#title-description-button p{
+    color: #00252E;
+    padding-bottom: 2rem;
+}
+
+h1{
+    color: #00252E;
+    padding-bottom: 1rem;
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.section img{
+    width: 300px;
+}
+
+#sec1-txt .p-1{
+    padding-bottom: .5rem;
+}
+
+.section .p-2{
+    color: #808D99;
+}
+
+#sec3-txt .p-1{
+    padding-bottom: .5rem; 
+}
+
+#section-3{
+    margin-bottom: 10rem;
+}
+
+#overlap-section{
+    position: relative;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#overlap-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -3px 5px #E6E6E6;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+#overlap-card p{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+#bottom{
+    padding-top: 3rem;
+    background-color: #00252E;
+}
+
+#bottom-logo img{
+    width: 200px;
+    padding: 5rem 0 1rem 3rem   
+}
+
+#bottom-contact-info{
+    margin-left: 3rem;
+    width: 300px;
+}
+#bottom-contact-info p{   
+    color: white;
+    font-size: .8rem;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.contact-section img{
+    width: 30px;
+    padding-right: 1rem;
+}
+
+#other-info{
+    width: 33%;
+    color: white;
+    font-size: .8rem;
+}
+#infos-1 p{
+    cursor: pointer;
+}
+
+#infos-1 p:active{
+    text-decoration: underline;
+}
+
+#infos-2 p {
+    cursor: pointer;
+}
+
+#infos-2 p:active{
+    text-decoration: underline;
+}
+
+ion-icon{
+    cursor: pointer;
+    padding-right: .5rem;
+    color: white;
+    font-size: 20px;
+}
+
+ion-icon:active{
+    color: #FF52BF;
+}
+
+#copyright{
+    padding: 1rem 1rem 1rem 0;
+    color: white;
+    font-size: .8rem;
+}
+
+@media(min-width: 700px){
+    .card{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+
+    #header{
+        background-image: url(images/bg-hero-desktop.svg);
+        height: 480px;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    #header-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+
+    #title-description-button{
+        margin-right: 10rem;
+    }
+
+    #header-img img{
+        width: 450px;
+    }
+
+    #sec1-txt{
+        margin-right: 10rem;
+    }
+
+    #sec3-txt{
+        margin-right: 10rem;
+    }
+
+    #sec-2-img img{
+        margin-right: 9.5rem;
+        width: 300px;
+    }
+
+    #overlap-card{
+        width: 65%;
+    }
+
+    #bottom-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #other-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #other-info p{
+        padding-bottom: 1.2rem;
+    }
+
+    #social-media{
+        padding-right: 4.5rem;
+    }
+
+    #copyright{
+        text-align: right;
+    }
+}
+
+@media(max-width: 700px){
+    .card{
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+
+    .card img{
+        padding-bottom: 3rem;
+    }
+
+    #header{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    #header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title-description-button{
+        padding: 0 4rem 2rem 4rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header-img img{
+        width: 370px;
+    }
+
+    #title-description-button p{
+        font-size: .96rem;
+        padding: 0 1rem 1.5rem 1rem;
+    }
+
+    #sec1-txt .p-2{
+        padding: 0 3rem 0 3rem;
+    }
+
+    #sec2-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sec2-txt .p-2{
+        padding: .5rem 3.2rem 0 3.2rem;
+    }
+
+    #sec3-txt .p-2{
+        padding: 0 3.5rem 0 3.5rem;
+    }
+
+    #overlap-card{
+        width: 90%;
+    }
+
+    #bottom-info{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    #bottom-contact-info{
+        padding-bottom: 1rem;
+        width: 55%;
+    }
+
+    #other-info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        margin-bottom: 1.2rem;
+    }
+
+    #other-info p{
+        padding-bottom: 1rem;
+    }
+
+    #social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #copyright{
+        text-align: center;
+    }
+
+}
+
+
+footer{
+    padding: .5rem 0 .5rem 0;
+    background-color: #00252E;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+.attribution a{
+    color: #FF52BF;
+}
