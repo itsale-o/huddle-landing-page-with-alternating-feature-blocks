@@ -64,6 +64,6 @@ And here is the mobile look
 
 ## Author
 
-- Frontend Mentor - [@itsale-o](https://www.frontendmentor.io/profile/itsale-o)
+- Frontend Mentor - [itsale-o](https://www.frontendmentor.io/profile/itsale-o)
 - LikedIn - [Alessandra Oliveira](https://www.linkedin.com/in/alessandra-santos-oliveira/)
 - Twitter - [@itsale_o](https://twitter.com/itsale_o)
